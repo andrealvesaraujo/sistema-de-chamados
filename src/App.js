@@ -1,8 +1,12 @@
+import firebase from "./services/firebaseConnection";
+
 function App() {
 
   return (
-    <div className="App">
-        <h1>Começando projeto do sistema de chamados</h1>
+    <div>
+      <h1>
+        Teste
+      </h1>
     </div>
   );
 }
