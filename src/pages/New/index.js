@@ -15,7 +15,7 @@ export default function New() {
  
     const [customers, setCustomers] = useState([])
     const [loadCustomers, setLoadCustomers] = useState(true)
-    const [customerSelected, setCustomerSelected] = useState()
+    const [customerSelected, setCustomerSelected] = useState(0)
 
     const [assunto, setAssunto] = useState('Suporte')
     const [status, setStatus] = useState('Aberto')
